@@ -1,0 +1,42 @@
+{"Resturants": [{
+    "id":1,
+    "name": "Lazeez",
+    "contact": 9849913074,
+    "address": "Orange street, New Haven, CT-06519, USA",
+    "cuisinetype": "Indian",
+    "DeliveryAvailability": true
+  
+  },
+  {
+      "id":2,
+      "name": "Soul de cuba Cafe",
+      "contact": 9597927251,
+      "address": "Chapel street, New Haven, CT-06519, USA",
+      "cuisinetype": "Cuban",
+      "DeliveryAvailability": true
+  },
+  {
+      "id":3,
+      "name": "Pagoda",
+      "contact": 965436789,
+      "address": "Washington Avenue, North Haven, CT-06523, USA",
+      "cuisinetype": "Chinese",
+      "DeliveryAvailability": false
+  },
+  {
+      "id":4,
+      "name": "Alibaba",
+      "contact": 9849913077,
+      "address": "Dixwell Avenue, Hamden, CT-06528, USA",
+      "cuisinetype": "MiddleEast",
+      "DeliveryAvailability": false
+  },
+  {
+      "id":5,
+      "name": "Thiramisu",
+      "contact": 9849912765,
+      "address": "Central street, Waterbury, CT-06576, USA",
+      "cuisinetype": "Italian",
+      "DeliveryAvailability": true
+  }]}
+  

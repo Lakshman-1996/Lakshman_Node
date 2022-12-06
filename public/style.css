@@ -1,0 +1,250 @@
+:root{
+  --main-radius:1px;
+  --main-padding:5px;
+  --cherryblue:#CC313D;
+  --babypink:#F7C5CC;
+
+}
+
+.container{
+  font-weight: 800;
+  font-size:1em;
+  height:100vh ;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 0.3fr;
+  grid-template-areas:
+  "nav"
+  "AboutMe"
+  "Education"
+  "Experience"
+  "Projects"
+  "Blogs"
+  "footer"
+
+;
+
+}
+
+nav{
+  grid-area: nav;
+  background-color:var(--cherryblue);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: var(--main-radius);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:black;
+  
+  
+}
+
+#hamnav label, #hamburger { display: none; }
+
+.menu1{
+  margin-left:40px;
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 5px;
+  display:inline;
+}
+
+#AboutMe{
+  grid-area: AboutMe;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  var(--babypink);
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+#Education{
+  grid-area: Education;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  var(--babypink);
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+#Experience{
+  grid-area: Experience;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  var(--babypink);
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+
+#Projects{
+  grid-area: Projects;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  var(--babypink);
+  margin-top: 5px;
+  padding-left: 10px;
+}
+#Blogs{
+  grid-area: Blogs;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:  var(--babypink);
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.header{
+    text-align: center;
+}
+
+
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height:100px;
+  padding-bottom: 10px;
+}
+
+
+
+img{
+    border-radius: 50%;      
+}
+
+
+footer
+{
+  grid-area:footer ;
+  background-color:var(--cherryblue);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: var(--main-radius);
+  padding-top: 20px;
+  color:black;
+  margin-top: 5px; 
+  padding-bottom: 10px;
+}
+
+.fa {
+  padding-left:17px ;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-top: 15px;
+  font-size: 20px;
+  height:20px;
+  width: 20px;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 50%;
+  margin-left:180px;
+
+}
+
+#icons
+{
+    align-items: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  
+  
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  
+}
+
+.fa-whatsapp {
+  background: #128C7E;
+  color: white;
+}
+
+@media only screen and (max-width:500px){
+ 
+  .container{
+    font-weight: 800;
+    font-size:1em;
+    height:100vh ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 0.3fr;
+    grid-template-areas:
+    "nav"
+    "AboutMe"
+    "Education"
+    "Experience"
+    "Projects"
+    "Blogs"
+    "footer"
+  
+  ;
+  
+  }
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+ 
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #CC313D;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems 
+  { 
+    display: none; 
+  }
+
+  #hamnav input:checked ~ #hamitems 
+  { 
+    display: block; 
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+  .fa{
+    margin-left:35px;
+  }
+  .menu1{
+    margin-left:15px;
+  }
+  
+}
